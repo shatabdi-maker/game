@@ -411,10 +411,10 @@
     body { padding: 10px 6px; justify-content: flex-start; padding-top: 16px; }
     h1 { margin-bottom: 10px; }
     .buttons { gap: 8px; }
-    .title{font-size: clamp(0.8rem, 1.5vw, 0.75rem);}
     .tile:hover:not(.empty) { transform: none; }
      #grid { grid-template-columns: repeat(5, 1fr);}
 
   }
+
 
 
