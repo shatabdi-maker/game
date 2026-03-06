@@ -131,7 +131,7 @@
   /* Grid */
   #grid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 4px;
     background: var(--panel);
     border: 1px solid var(--tile-border);
@@ -411,7 +411,8 @@
     body { padding: 10px 6px; justify-content: flex-start; padding-top: 16px; }
     h1 { margin-bottom: 10px; }
     .buttons { gap: 8px; }
-    .title{ font-size:10px;}
     .tile:hover:not(.empty) { transform: none; }
+     #grid { grid-template-columns: repeat(5, 1fr);}
 
   }
+
