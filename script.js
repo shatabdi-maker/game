@@ -168,7 +168,7 @@ function initGame() {
   timer = 0;
 
   // Countdown: starts at 80s for level 1, decreases by 2s per level (min 20s)
-  countdownMax  = Math.max(20, 80 - (level - 1) * 2);
+  countdownMax  = Math.max(20, 200 - (level - 1) * 2);
   countdownLeft = countdownMax;
 
   clearInterval(timerInterval);
@@ -292,4 +292,5 @@ function updateUI() {
 }
 
 // ─── Start ───────────────────────────────────────────────────────
+
 initGame();
